@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.header{width:160px; padding:0px; background-color: #262b37; position: fixed; height: 100%; border-right: 5px solid #515560;}
+.header-image{padding: 30px;}
+.header h1{font-size: 24px ;}
+.site-nav ul.nav{display: block;}
+.header-image img{width: 100%; height: auto;}
+header, header a, header a:hover{color:#fff; text-decoration: none;}
+header li, header ul{list-style-type: none; text-align: center; margin: 0; padding: 0;}
+.site-nav ul li a{padding: 0; line-height:42px; display: block; box-sizing: border-box; border-top:1px solid #262b37; border-bottom:1px solid #262b37;border-right: 3px solid #262b37; }
+.site-nav ul li a:hover, .site-nav ul li a.active{border-right: 3px solid #0099cc; border-top:1px solid #303747; border-bottom:1px solid #303747}
+.copyrights{font-size: 12px; color: #ccc; }
+.site-title-block{padding-bottom: 30px;}
+.social-links{padding: 30px 0;}
+
+.social-links a{ margin: 0 0 0 15px; padding:0px 5px; border-radius:50%;}
+.site-main {margin-left: 160px;}
+.page-layout {position: relative; min-height: 100%;height: 100%;}
+.pt-wrapper {position: relative;width: 100%;overflow: hidden; max-width: 100%;height: 100%; padding: 0;z-index: 1;background-color: transparent;}
+.pt-page {
+  
+  background: #00bdbd;
+  padding-left: 15px;
+  margin: 0 auto;
+  
+}
+.resume{height:100%; }
+.portfolio{height:100%; background-color: crimson; height:1000px}
+.contact{height: 100%;  height:1000px}
+.contact form{width: 60%; margin: 0 auto;}
+.about-me{color: #fff; text-align: left; padding: 50px 0 50px 50px; height:1000px}
+.img-circle {
+  border-radius: 50%;
+}
+.subpages {position: relative;width: 100%;max-width: 100%;height: 100%;max-height: 100%;
+  -webkit-perspective: 1500px;
+  -moz-perspective: 1500px;
+  perspective: 1500px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+h3{font-size: 18px; text-shadow: 2px 1px 5px #fff;}
+.skill{color:#262b37; background-color: #fff;padding: 30px 30px 0; border-radius: 20px;   margin-right: 50px;}
+.skill i{float: left; font-size: 50px; padding-right: 20px;}
+.skillset{display: flex;}
+.proPic img{width: 100%;}
+.pt-page-current, .no-js .pt-page {
+  visibility: visible;
+  z-index: 90;
+  opacity: 1;
+  overflow: hidden;
+}
+.bntDownload {font-size: 16px;font-family: 'Open Sans', sans-serif;font-weight: 700;background: #474d5d;
+  padding: 16px 22px;display: inline-block; color:#fff;
+  }
+  .bntDownload:hover {
+    background: #373d4c;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+.skill .row{ padding-bottom: 30px;}
+.tab-content{font-size: 14px; padding-right:30px;}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
