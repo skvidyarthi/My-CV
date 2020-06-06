@@ -20,7 +20,7 @@ class ContactCompnent extends React.Component{
         
         axios({
             method:'POST',
-            url:'http://localhost:3001/send',
+            url:'http://localhost:3002/index.js',
             data:'this.state'
         }).then((response) =>{
 

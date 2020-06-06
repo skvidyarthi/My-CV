@@ -7,7 +7,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h1,h2,h3,h4,h5,h6{font-family: Poppins, Helvetica, sans-serif;}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,6 +18,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.edu, .skill{margin-top: 30px;}
 .header{width:160px; padding:0px; background-color: #262b37; position: fixed; height: 100%; border-right: 5px solid #515560;}
 .header-image{padding: 30px;}
 .header h1{font-size: 24px ;}
@@ -79,6 +80,9 @@ h3{font-size: 18px; text-shadow: 2px 1px 5px #fff;}
 }
 .skill .row{ padding-bottom: 30px;}
 .tab-content{font-size: 14px; padding-right:30px;}
+.resume{padding: 50px;}
+.resume h5{font-size: 15px; color:#888}
+.section-title{border-bottom:2px solid #eeeeee; padding-bottom: 10px; text-align: left;}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

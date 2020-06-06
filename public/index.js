@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
-const creds = require('./config');
+const creds = require('http://localhost:3002/config.js');
 
 var transport = {
   host: "smtp.mailtrap.io",
@@ -53,4 +53,4 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3000)
+app.listen(3002)
