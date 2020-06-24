@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{font-family: Poppins, Helvetica, sans-serif;}
   color: white;
 }
 .edu, .skill{margin-top: 30px;}
+/* about css */
 .header{width:160px; padding:0px; background-color: #262b37; position: fixed; height: 100%; border-right: 5px solid #515560;}
 .header-image{padding: 30px;}
 .header h1{font-size: 24px ;}
@@ -36,18 +37,12 @@ header li, header ul{list-style-type: none; text-align: center; margin: 0; paddi
 .site-main {margin-left: 160px;}
 .page-layout {position: relative; min-height: 100%;height: 100%;}
 .pt-wrapper {position: relative;width: 100%;overflow: hidden; max-width: 100%;height: 100%; padding: 0;z-index: 1;background-color: transparent;}
-.pt-page {
-  
-  background: #00bdbd;
-  padding-left: 15px;
-  margin: 0 auto;
-  
-}
-.resume{height:100%; }
+.pt-page {background: #00bdbd;padding-left: 15px;margin: 0 auto;}
+/* about css end */
 .portfolio{height:100%; background-color: crimson; height:1000px}
 .contact{height: 100%;  height:1000px}
 .contact form{width: 60%; margin: 0 auto;}
-.about-me{color: #fff; text-align: left; padding: 50px 0 50px 50px; height:1000px}
+.about-me{color: #fff; text-align: left; padding: 50px 0 50px 50px; }
 .img-circle {
   border-radius: 50%;
 }
@@ -60,7 +55,7 @@ header li, header ul{list-style-type: none; text-align: center; margin: 0; paddi
   backface-visibility: hidden;
 }
 h3{font-size: 18px; text-shadow: 2px 1px 5px #fff;}
-.skill{color:#262b37; background-color: #fff;padding: 30px 30px 0; border-radius: 20px;   margin-right: 50px;}
+.skill{color:#262b37; background-color: #fff;padding: 30px 30px 0; border-radius: 20px;   margin-right: 0px;}
 .skill i{float: left; font-size: 50px; padding-right: 20px;}
 .skillset{display: flex;}
 .proPic img{width: 100%;}
@@ -80,9 +75,18 @@ h3{font-size: 18px; text-shadow: 2px 1px 5px #fff;}
 }
 .skill .row{ padding-bottom: 30px;}
 .tab-content{font-size: 14px; padding-right:30px;}
+/* Resume css */
+.resume{height:100%; overflow: hidden;}
+.progress{height:6px !important;}
 .resume{padding: 50px;}
 .resume h5{font-size: 15px; color:#888}
 .section-title{border-bottom:2px solid #eeeeee; padding-bottom: 10px; text-align: left;}
+.skill-border{border: 1px solid #0099cc;padding: 2px; border-radius:5px;}
+.skill{text-align: left;}
+.skill h4 {font-size: 14px; margin:10px 0 4px;}
+.resume h3{font-size: 1.25rem; display: inline-block; border-bottom: 1px solid #0099cc; padding-bottom:5px;}
+.skill h4 span{float: right; font-size: 12px; color: #acacac;}
+/* Resume css end */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
