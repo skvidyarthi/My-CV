@@ -14,7 +14,7 @@ render(){
             	<div className=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
                 	<h1>Sanjit Vidyarthi</h1>
                     <h5 className="subHeading">Web designer</h5>
-                    <p>Professional Synopsis: I have around 10 years of experience in Web Development. Solution-driven professional excelling in highly collaborative work environment, finding solutions to challenges and focused on customer satisfaction. Proven experience developing consumer-focused web sites using React, HTML, CSS, JQuery and JavaScript. Experience building products for desktop, phone and mobile app users, meeting highest standards for web design, user experience, best practices, usability and speed. Responding to challenges by designing and developing solutions and building web applications aligned to customer's services. Translating solutions into code and working across many different APIs, third-party integrations and databases.
+                    <p>Professional Synopsis: I have around 12 years of experience in Web Development. Solution-driven professional excelling in highly collaborative work environment, finding solutions to challenges and focused on customer satisfaction. Proven experience developing consumer-focused web sites using React, HTML, CSS, JQuery and JavaScript. Experience building products for desktop, phone and mobile app users, meeting highest standards for web design, user experience, best practices, usability and speed. Responding to challenges by designing and developing solutions and building web applications aligned to customer's services. Translating solutions into code and working across many different APIs, third-party integrations and databases.
 
 </p>
                     
@@ -78,7 +78,7 @@ render(){
     </div>   
     <div className="tab-content">
     <h3>Management</h3>
-    I have soft skills like Agile and Scrum, People Management, Communicate within team, Leadership and Analytical Thinking.
+    I have soft skills like Agile and Scrum,Time Management, People Management, Communicate within team, Leadership and Analytical Thinking.
     
         </div>
     </div> 
