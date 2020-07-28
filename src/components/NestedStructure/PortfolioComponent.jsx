@@ -14,7 +14,7 @@ return(
                 <div className="start-page-full-width">
 <h1>Portfolio</h1>
 
-
+<div></div>
                 </div> 
                 </div>
             </section>

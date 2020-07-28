@@ -39,7 +39,7 @@ header li, header ul{list-style-type: none; text-align: center; margin: 0; paddi
 .pt-wrapper {position: relative;width: 100%;overflow: hidden; max-width: 100%;height: 100%; padding: 0;z-index: 1;background-color: transparent;}
 .pt-page {background: #00bdbd;padding-left: 15px;margin: 0 auto;}
 /* about css end */
-.portfolio{height:100%; background-color: crimson; height:1000px}
+.portfolio{height:100%;  height:1000px}
 .contact{height: 100%;  height:1000px}
 .contact form{width: 60%; margin: 0 auto;}
 .about-me{color: #fff; text-align: left; padding: 50px 0 50px 50px; }
@@ -82,10 +82,20 @@ h3{font-size: 18px; text-shadow: 2px 1px 5px #fff;}
 .resume h5{font-size: 15px; color:#888}
 .section-title{border-bottom:2px solid #eeeeee; padding-bottom: 10px; text-align: left;}
 .skill-border{border: 1px solid #0099cc;padding: 2px; border-radius:5px;}
-.keyskill{text-align: left; padding: 30px 0;}
+.keyskill{text-align: left; padding:0 0 30px 0;}
 .keyskill h4 {font-size: 14px; margin:10px 0 4px;}
 .resume h3{font-size: 1.25rem; display: inline-block; border-bottom: 1px solid #0099cc; padding-bottom:5px;}
 .keyskill h4 span{float: right; font-size: 12px; color: #acacac;}
+.edu-item{display: flex; padding-left: 0px;}
+.devider{border-left: 2px solid #eee; max-width: 1% !important; position: relative;}
+.devider:after{width:10px;height:10px;border-radius: 5px; background: #fff; border: 2px solid #0099cc; 
+  position: absolute; top:24px; display: block; content: ""; left: -6px;}
+.edu-item p{font-size:14px ; color:#888;}
+.edu-item h4{font-size: 18px;}
+.right-panel{padding-top: 20px;}
+.left-panel{text-align: right; padding-top:20px}
+.edu-item h5{font-size: 16px; color:#212529; margin: 0;}
+.left-panel span{font-size: 12px; color:#888;}
 /* Resume css end */
 @keyframes App-logo-spin {
   from {
