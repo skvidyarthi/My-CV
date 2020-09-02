@@ -23,13 +23,44 @@ render(){
                      <a href="/doc/SanjitKumarVidyarthi.docx" className="bntDownload">Download Resume</a>
                 </div>
                 <div className=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic">
-                	<img src="/images/profile-img.jpg" alt="" className="img-circle topmar" />
+                	<img src="/images/profile-img.jpg" alt="" className="topmar" />
                 </div>
             </div>
         
         </div><br /><br />
         <h2>What I do</h2>
-        
+        <div class="featured-boxes">
+	
+	<div className="row">
+	<div className="col-sm-4">
+	<div className="panel">
+	<i className="fa fa-code"></i>
+	<h3>Frontend Development</h3>
+	<p>I am Converting Web design to an interactive Web page, Using Frameworks React and Angular JS, with frontend language JavaScript, html and css.</p>
+	
+	</div>
+	</div>
+	
+	<div className="col-sm-4">
+	<div className="panel">
+	<i className="fa fa-laptop"></i>
+	<h3>UI Development</h3>
+	<p>I have around 10 years of experience in UI Development, I am converting PSD and Prototype like UXPin to Interactive Web page using tool html css bootsrap.</p>
+	
+	</div>
+	</div>
+	
+	<div className="col-sm-4">
+	<div className="panel">
+	<i className="fa fa-paint-brush"></i>
+	<h3>UX Development</h3>
+	<p>As an UX developer I plan, design, and develop web applications and web pages using Photoshop, XD, html css visual design tools</p>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	
 
         </div>
         </section>
